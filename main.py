@@ -153,20 +153,6 @@ class Config_CLI():
         if discord_webhook  != "":
             confirm = await inquirer.select(message="Confirm Discord Webhook?", choices=["Yes", "No"]).execute_async()
             
-            if confirm == "Yes":
-                config_data['DISCORD_WEBHOOK'] = discord_webhook
-                await Config_CLI.edit_config_file(config_data=config_data)
-                f.send_discord_alert("Discord Alert added!")
-                
-                confirm = await inquirer.select(message="Is message sent in the Discord channel?", choices=["Yes", "No"]).execute_async()
-                if confirm == "No":
-                    await Config_CLI.prompt_discord_webhook()
-                    return
-            
-            elif confirm == "No":
-                await Config_CLI.prompt_discord_webhook()
-                return
-        
         return discord_webhook
     
     @staticmethod
@@ -186,16 +172,6 @@ class Config_CLI():
                     confirm = await inquirer.select(message="Confirm Telegram Chat ID?", choices=["Yes", "No"]).execute_async()
                     
                     if confirm == "Yes":
-                        config_data['TELEGRAM_CHAT_ID'] = int(telegram_bot_token)
-                        await Config_CLI.edit_config_file(config_data=config_data)
-                        f.send_telegram_alert("Telegram Alert added!")
-                
-                        confirm = await inquirer.select(message="Is message sent in the Telegram channel?", choices=["Yes", "No"]).execute_async()
-                        if confirm == "No":
-                            await Config_CLI.prompt_telegram_api()
-                            return
-                        
-                        break
                 
                 return
             
