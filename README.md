@@ -1,21 +1,21 @@
 <div align="center">
     <h1>📟 JUPITER TOKEN SNIPER🪐</h1>
 
-https://github.com/0xTaoDev/jupiter-python-cli/assets/152310566/81f79ed5-8c47-469f-aeb8-c3be70c9541f
+https://github.com/0xTan1319/jupiter-python-cli/assets/152310566/81f79ed5-8c47-469f-aeb8-c3be70c9541f
 
 </div>
 
 ---
 
 <p align="center">
-    <img src="https://img.shields.io/github/stars/0xtaodev/jupiter-python-cli">
-    <img src="https://img.shields.io/github/forks/0xtaodev/jupiter-python-cli">
+    <img src="https://img.shields.io/github/stars/0xTan1319/jupiter-python-cli">
+    <img src="https://img.shields.io/github/forks/0xTan1319/jupiter-python-cli">
     <br>
-    <img src="https://img.shields.io/github/issues/0xtaodev/jupiter-python-cli">
-    <img src="https://img.shields.io/github/issues-closed/0xtaodev/jupiter-python-cli">
+    <img src="https://img.shields.io/github/issues/0xTan1319/jupiter-python-cli">
+    <img src="https://img.shields.io/github/issues-closed/0xTan1319/jupiter-python-cli">
     <br>
-    <img src="https://img.shields.io/github/languages/top/0xtaodev/jupiter-python-cli">
-    <img src="https://img.shields.io/github/last-commit/0xtaodev/jupiter-python-cli">
+    <img src="https://img.shields.io/github/languages/top/0xTan1319/jupiter-python-cli">
+    <img src="https://img.shields.io/github/last-commit/0xTan1319/jupiter-python-cli">
     <br>
 </p>
 
@@ -34,7 +34,7 @@ This project has been made for Python 3.11
 
 💾 **Clone this repository**
 ```sh
-git clone github.com/andreottohst/jupiter-token-sniper-solana-sniper-bot
+git clone github.com/0xTan1319/Jupiter-Sniper-Bot-Solana
 ```
 💻 **Create a virtual environnment**
 ```sh
@@ -105,7 +105,7 @@ If token has a launch date:
 
 ### 🔭 Watch token
 You can watch your trading position by selecting the token.<br>
-<img src="https://github.com/0xTaoDev/jupiter-python-cli/blob/main/images/sniper_bot_watch.png?raw=true" width="50%" height="50%">
+<img src="https://github.com/0xTan1319/jupiter-python-cli/blob/main/images/sniper_bot_watch.png?raw=true" width="50%" height="50%">
 
 ### ✍🏻 Edit tokens
 You can modify token info as follow:
@@ -129,16 +129,6 @@ You can modify token info as follow:
 ### Is it possible to swap any tokens?
 *You can only swap tokens that are listed on Jupiter based on their criterias.*
 
-# 🚨 Known bugs
-### ImportError: sync_native from spl.token.instructions
-1. Go to https://github.com/michaelhly/solana-py/tree/master/src/spl/token and download ```instructions.py```
-2. In your packages folder, replace ```spl/token/instructions.py``` with the one you just downloaded.
-### Sometimes 0.01 is added when typying numbers
-### Invalid DCA Accounts listed (and cannot be deleted)
-### ~~Discord Webhook or Telegram API not being added in `config.json`~~
-### Duplicating menus when resizing the window
-### Sniper Bot: it's taking 10-20 seconds to get real trade position info after a swap route is found and executed
-
 # 📝 TO-DO
 - [ ] Clean up code ⚡
 - [ ] Add docstrings 📑
@@ -155,10 +145,12 @@ You can modify token info as follow:
 # 🤝 Contributions
 If you are interesting in contributing, fork the repository and submit a pull request in order to merge your improvements into the main repository.<br>
 Contact me for any inquiry, I will reach you as soon as possible.<br>
-[![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/QxwPGcXDp7)
-[![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?logo=Twitter&logoColor=white)](https://twitter.com/_TaoDev_)
+[![Telegram](https://img.shields.io/badge/Telegram-%231DA1F2.svg?logo=Twitter&logoColor=white)](https://t.me/shiny0103)
 
 # 👑 Donations
 This project doesn't include platform fees. If you find value in it and would like to support its development, your donations are greatly appreciated.<br>
 You can donate through CLI in About menu.<br>
+
+# ☎️ Connect
+If you have question or any other problem, ask here [![Telegram: @shiny0103](https://img.shields.io/badge/Telegram-%231DA1F2.svg?logo=Twitter&logoColor=white)](https://t.me/shiny0103)
 
